@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>eOpening</name>
+    <events>
+        <event-block sid="793899435458757">
+            <conditions>
+                <condition id="17" name="On tap object" sid="981678294828321" type="Touch">
+                    <param id="0" name="Object">playKlikOpening</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="532716817280883" type="playKlikOpening">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="303164732193417" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="5" name="Set frame" sid="462212815358965" type="playKlikOpening">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="531656254564592" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="150451520764588" type="System">
+                    <param id="0" name="Layout">SelectLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="606538200558819">
+            <conditions>
+                <condition id="17" name="On tap object" sid="549961553985327" type="Touch">
+                    <param id="0" name="Object">soundKlik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="670875314492199" type="soundKlik">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="740517925902927" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="5" name="Set frame" sid="211946120650232" type="soundKlik">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="377839679635497" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="216955198904346">
+            <conditions>
+                <condition id="17" name="On tap object" sid="647368988486454" type="Touch">
+                    <param id="0" name="Object">settingKlik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="218510589221642" type="settingKlik">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="559190272263824" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="5" name="Set frame" sid="766351768118404" type="settingKlik">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="724528709848235" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
